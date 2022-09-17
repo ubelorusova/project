@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заявка</title>
+</head>
+<link rel="stylesheet" href="style_modal.css">
+<body>
+    <div class="hystmodal" id="myModal">
+        <div class="hystmodal__window">
+            <button data-hystclose class="hystmodal__close">Закрыть</button>  
+            Ваша заявка принята, ожидайте звонка!
+            <img src="img/photo.jpg" alt="Изображение в окне" />
+        </div>
+    </div>
+
+    <div class="hystmodal" id="myModal" aria-hidden="true" >
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true" >              
+                <h1>Ваша заявка принята!</h1>
+                <p>Пожалуйста, ожидайте звонка.</p>
+                <button data-hystclose class="hystmodal__close"><a href="index.html">Вернуться на главную</a></button>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+.html { 
+	scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(0, 0, 0);
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	color: #14141d;
+}
+
+.menu {
+	margin-top: 0px;
+}
+
+.menu__item {
+	font-weight: 700;
+	font-size: 20px;
+	margin-left: 400px;
+}
+
+.main-header {
+    padding: 24px 0;
+}
+
+.man {
+	background: url('7 (1).jpg') no-repeat center top;
+    height: 670px;
+}
+
+.title {
+    padding: 250px 0;
+}
+
+
+
+.call {
+	background: rgb(203, 177, 228);
+	border-bottom: 1px solid #dde3e7;
+	padding: 35px 0;
+	width: auto;
+}
+
+.phone {
+	width: 455px;
+}
+
+.phone__text {
+	background: url(icon_phone.png) no-repeat left center;
+	color: #220707;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	width: 400px;
+	padding-left: 56px;
+	padding-top: 5px;
+	white-space: nowrap;
+}
+
+.coach_title {
+margin-bottom: 150px;
+margin-right: 50%;
+display: inline-block;
+}
+
+.coach_text	{
+	margin-left: 100px;
+}
+
+.coach_photo {
+	margin-top: 35px;
+	margin-left: -100px;
+
+}
+
+.price_title {
+	margin-left: 50%;
+	margin-top: 50px;
+}
+
+
+.pricelist {
+	margin-top: 50px;
+	margin-left: 200px;
+}
+
+.contacts_title {
+	margin-top: 50px;
+}
+
+.addresses {
+	border: 0px ;   
+	width: 100%;
+	margin-top: 20px;
+	
+}
+.td {
+	width: 100%;
+}
+
+.form {
+	margin-top: 5%;
+	margin-bottom: 5%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.textbox {
+	margin-left: 200px;
+}
+.btn-submit {
+	margin-left: 200px;
+}
